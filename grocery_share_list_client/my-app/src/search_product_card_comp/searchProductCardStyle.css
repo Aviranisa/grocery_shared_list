@@ -1,0 +1,43 @@
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: transform 0.2s ease-in-out;
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.cardName {
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #333;
+	white-space: pre-line;
+	overflow: hidden;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.cardContainer:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.cardContainer:active {
+	transform: scale(1);
+	box-shadow: none;
+}
+
+.productImg {
+	width: 6rem;
+	height: 6rem;
+}

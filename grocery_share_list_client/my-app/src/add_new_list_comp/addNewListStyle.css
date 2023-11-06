@@ -1,0 +1,15 @@
+.AddNewListFormContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	width: 300px;
+	justify-content: space-between;
+}
+.listNameInput {
+	width: 11rem;
+}

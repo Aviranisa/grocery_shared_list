@@ -1,0 +1,32 @@
+.listContainer {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+.listName {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.listUsers {
+	margin-bottom: 1rem;
+}
+
+.listPriceBudget {
+	margin-bottom: 1rem;
+}
+.listProducts {
+	max-width: 550px;
+}
+@media screen and (max-width: 550px) {
+	/* Adjust styles for smaller screens */
+	.listProducts {
+		max-width: 360px;
+	}
+}

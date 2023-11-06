@@ -1,0 +1,15 @@
+.App {
+	margin: auto;
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; /* Center the content horizontally on all screens */
+}
+
+/* Add a maximum width for larger screens */
+@media (min-width: 800px) {
+	.App {
+		max-width: 800px; /* Adjust the maximum width as needed for larger screens */
+		justify-content: space-between; /* Maintain spacing between items for larger screens */
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"development": {
+		"use_env_variable": "DB_CONNECTION_STRING",
+		"url": "mysql://root:password@localhost:3306/grocery_list_db",
+		"dialect": "mysql"
+	}
+}

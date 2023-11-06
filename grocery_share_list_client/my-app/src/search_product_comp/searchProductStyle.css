@@ -1,0 +1,57 @@
+.searchContiner {
+	width: 100%;
+	max-width: 550px;
+}
+/* Styles for .searchInput */
+.searchInput {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1rem;
+	width: 100%;
+	max-width: 550px; /* Updated max-width for larger screens */
+	margin-bottom: 0.5rem;
+}
+
+/* Styles for .searchButton */
+.searchButton {
+	padding: 0.5rem 1rem;
+	background-color: #001c38;
+	color: #e1f0ff;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.searchButton:hover {
+	color: #001c38;
+	background-color: #e1f0ff;
+}
+
+/* Styles for .cardCarousel */
+.cardCarousel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	max-width: 550px; /* Updated max-width for larger screens */
+	height: auto;
+	overflow-y: hidden;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 360px) {
+	/* Adjust styles for smaller screens */
+	.searchContiner {
+		max-width: 360px;
+	}
+
+	.searchInput {
+		max-width: 360px; /* Adjust max-width for smaller screens */
+	}
+
+	.cardCarousel {
+		max-width: 360px; /* Adjust max-width for smaller screens */
+	}
+}

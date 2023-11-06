@@ -1,0 +1,35 @@
+.liteUserElement {
+	border: 0.01rem solid rgb(131, 131, 131);
+	display: flex;
+	padding: 0.3rem;
+	margin-bottom: 0.2rem;
+	/* width: 100px; */
+	/* height: 50px; */
+	background-color: #001c38;
+	color: #e1f0ff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.liteUserElement:hover {
+	background-color: #e1f0ff;
+	color: #001c38;
+	transition: 0.2s;
+	transform: translateZ(3px);
+	box-shadow: 0 0 5px 2px #001c38;
+}
+
+.liteUserElement:active {
+	transform: translateZ(-3px);
+	box-shadow: 0 0 5px 2px #e1f0ff;
+}
+
+.userProfilePicture {
+	border-radius: 50%;
+	width: 1.5rem;
+}
+
+.userName {
+	margin-left: 0.5rem;
+}
